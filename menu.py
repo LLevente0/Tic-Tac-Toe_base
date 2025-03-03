@@ -10,7 +10,7 @@ def get_menu_option():
   The function should return a number between 1-4.
   If the user will enter invalid data (for example 5), than a message will appear
   asking to input a new value.
-  '''
+
   pass
 
 
