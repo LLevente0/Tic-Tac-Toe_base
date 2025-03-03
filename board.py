@@ -20,12 +20,10 @@ def display_board(board):
 
 
 def is_board_full(board):
-
     if "." not in board:
         return True
     else:
         return False
-  pass
 
 
 def get_winning_player(board):
