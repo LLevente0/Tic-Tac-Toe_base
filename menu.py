@@ -7,6 +7,7 @@ def get_menu_option():
   Válassz egy módot: """))
 
     if valasztas < 5:
+        print(f"{valasztas}. mód kiválasztva!")
         return valasztas
     else:
         ValueError
@@ -23,4 +24,3 @@ def get_menu_option():
 
 if __name__ == "__main__":
     option = get_menu_option()
-    print(option)
