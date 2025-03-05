@@ -11,7 +11,7 @@ def get_menu_option():
         return valasztas
     else:
         ValueError
-        print("Hiba! Kérlek adj meg egy új számot!")
+        print("\nHiba! Kérlek adj meg egy új számot!")
         get_menu_option()
 
 """
