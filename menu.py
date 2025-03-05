@@ -4,14 +4,14 @@ def get_menu_option():
   2. Random AI vs Random AI
   3. Human vs Random AI
   4. Human vs Unbeatable AI\n
-  Válassz egy módot: """))
+  Please select a mode: """))
 
     if valasztas < 5:
-        print(f"{valasztas}. mód kiválasztva!")
+        print(f"Mode {valasztas} selected!")
         return valasztas
     else:
         ValueError
-        print("\nHiba! Kérlek adj meg egy új számot!")
+        print("\nError! Please select a number from 1 to 4!")
         get_menu_option()
 
 """
